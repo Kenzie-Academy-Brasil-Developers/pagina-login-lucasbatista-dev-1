@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/colors.css" />
+    <link rel="stylesheet" href="/styles/inputs.css" />
+    <link rel="stylesheet" href="/styles/positioning.css" />
+    <link rel="stylesheet" href="/styles/buttons.css" />
+    <link rel="stylesheet" href="/styles/sizes.css" />
+    <link rel="stylesheet" href="/styles/texts.css" />
+    <link rel="stylesheet" href="/styles/radius.css" />
+    <link rel="stylesheet" href="/styles/hover.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Login</title>
+  </head>
+  <body class="sizes__body bg-grey flex justify-around items-center">
+    <div class="div__container flex">
+      <div class="sizes__imgLogo bg-grey2 flex items-center justify-center">
+        <img
+          class="sizes__img"
+          src="../../assets/img/Steam-logo-new-blue.svg"
+          alt=""
+        />
+      </div>
+      <div
+        class="sizes_information bg-grey1 flex flex-col items-start justify-around"
+      >
+        <p class="color-blue1 text-S12">INICIAR SESSÃO COM O NOME DE USUÁRIO</p>
+        <input
+          class="input__login bg-grey2 color-white pl-5"
+          id="input-login"
+          type="text"
+        />
+        <p class="color-white text-S12">SENHA</p>
+        <input
+          class="input__password bg-grey2 pl-5"
+          type="password"
+          id="input-password"
+        />
+        <div class="sizes__remember flex items-center justify-around">
+          <input
+            class="input__rememberUser bg-grey2"
+            type="checkbox"
+            name=""
+            id=""
+          />
+          <p class="color-white text-S12">LEMBRE-ME</p>
+        </div>
+        <button
+          class="button__login bg-blue2 color-white ml-40 text-S20 text-W500"
+          id="button__login"
+        >
+          Iniciar Sessão
+        </button>
+        <button
+          data-control-modal="modal-login"
+          class="button__recover color-white ml-110"
+        >
+          Recuperar a senha
+        </button>
+      </div>
+    </div>
+    <div class="div__modalWrapper" id="modal-login">
+      <div
+        class="div__modalContainer radius-8 bg-grey1 flex flex-col justify-between"
+      >
+        <p class="color-blue3 text-S18">
+          Esqueci o nome de usuário e/ou senha da minha conta
+        </p>
+        <span class="color-white text-S10 mb-text1"
+          >Informe o seu endereço de e-mail ou nª de telefone</span
+        >
+        <input
+          class="input_recoverModal bg-blue5 radius-4 color-white pl-5"
+          type="text"
+          name=""
+          id=""
+        />
+        <button
+          data-control-modal="modal-login"
+          class="button__modalSearch bg-blue5 color-blue3"
+        >
+          Buscar
+        </button>
+      </div>
+    </div>
+
+    <script src="/scripts/modal.js"></script>
+  </body>
+</html>

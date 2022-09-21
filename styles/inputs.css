@@ -1,0 +1,25 @@
+.input__login {
+  width: 350px;
+  height: 36px;
+  border: none;
+}
+.input__password {
+  width: 350px;
+  height: 36px;
+  border: none;
+}
+.input__rememberUser {
+  width: 16px;
+  height: 19px;
+  border: none;
+}
+.input__recover {
+  width: 373px;
+  height: 28px;
+  border: none;
+}
+.input_recoverModal {
+  width: 373px;
+  height: 28px;
+  border: none;
+}

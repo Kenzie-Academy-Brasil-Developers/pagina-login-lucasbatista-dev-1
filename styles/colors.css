@@ -1,0 +1,60 @@
+.bg-white {
+  background-color: var(--color-white-1);
+}
+.bg-grey {
+  background-color: #212529;
+}
+.bg-grey1 {
+  background-color: var(--color-grey-1);
+}
+.bg-grey2 {
+  background-color: var(--color-grey-2);
+}
+.bg-grey3 {
+  background-color: var(--color-grey-3);
+}
+.bg-blue1 {
+  background-color: var(--color-blue-1);
+}
+.bg-blue2 {
+  background-color: var(--color-blue-2);
+}
+.bg-blue3 {
+  background-color: var(--color-blue-3);
+}
+.bg-blue4 {
+  background-color: var(--color-blue-4);
+}
+.bg-blue5 {
+  background-color: var(--color-blue-5);
+}
+.color-white {
+  color: var(--color-white-1);
+}
+.color-grey {
+  color: #212529;
+}
+.color-grey1 {
+  color: var(--color-grey-1);
+}
+.color-grey2 {
+  color: var(--color-grey-2);
+}
+.color-grey3 {
+  color: var(--color-grey-3);
+}
+.color-blue1 {
+  color: var(--color-blue-1);
+}
+.color-blue2 {
+  color: var(--color-blue-2);
+}
+.color-blue3 {
+  color: var(--color-blue-3);
+}
+.color-blue4 {
+  color: var(--color-blue-4);
+}
+.color-blue5 {
+  color: var(--color-blue-5);
+}
